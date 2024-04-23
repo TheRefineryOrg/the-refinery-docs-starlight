@@ -1,40 +1,31 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import node from '@astrojs/node'; // Import the server adapter
-import auth from 'auth-astro'; // Import auth-astro for authentication
 
+// https://astro.build/config
 export default defineConfig({
-    output: "server", // Ensure server output for auth handling
-    adapter: node({
-        mode: 'standalone', // Set the mode for the node adapter
-    }),
-    integrations: [
-        starlight({
-            title: 'TheRefinery Docs',
-            customCss: [
-                // Relative path to your custom CSS file
-                './src/styles/custom.css',
-            ],
-            social: {
-                github: 'https://github.com/withastro/starlight',
-            },
-            sidebar: [
-                {
-                    label: 'Guides',
-                    items: [
-                        { label: 'Example Guide', link: '/guides/example/' },
-                    ],
-                },
-                {
-                    label: 'Reference',
-                    autogenerate: { directory: 'reference' },
-                },
-                {
-                    label: 'Projects',
-                    autogenerate: { directory: 'projects' },
-                },
-            ],
-        }),
-        auth(), // Add the auth-astro integration
-    ],
+	integrations: [
+		starlight({
+			title: 'TheRefinery Docs',
+			social: {
+				github: 'https://github.com/withastro/starlight',
+			},
+			sidebar: [
+				{
+					label: 'Guides',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Example Guide', link: '/guides/example/' },
+					],
+				},
+				{
+					label: 'Reference',
+					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'Projects',
+					autogenerate: { directory: 'projects' },
+				},
+			],
+		}),
+	],
 });
