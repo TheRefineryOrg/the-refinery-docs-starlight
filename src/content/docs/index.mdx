@@ -17,26 +17,8 @@ hero:
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
-import { SignIn, SignOut } from 'auth-astro/components';
-import { getSession } from 'auth-astro/server';
 
-export async function load({ request }) {
-  const session = await getSession(request);
-  if (!session.user) {
-    return { redirect: '/login' };
-  }
-  // Continue with user-specific data handling
-}
-
-
-
-## Login Test
-
-<SignIn provider="github" />
-	<SignOut />
-
-##
-##
+## Next steps
 
 <CardGrid stagger>
 	<Card title="Update content" icon="pencil">
