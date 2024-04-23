@@ -37,11 +37,22 @@ To contribute to the ANZAC Microsite or make changes, follow these steps:
 git clone https://github.com/TheRefineryOrg/ANZAC-Microsite.git
 ```
 
+## Getting Started
+
+To contribute to the ANZAC Microsite or make changes, follow these steps:
+
 1. Install dependencies:
 
-``` bash
+```bash
 cd ANZAC-Microsite
 npm install
+```
+
+2. Start the development server:
+
+``` bash
+npm run dev
+
 ```
 
 3. Make your changes or additions to the Markdown content or source code.
