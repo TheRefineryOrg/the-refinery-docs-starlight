@@ -2,7 +2,6 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import node from '@astrojs/node'; // Import the server adapter
 import auth from 'auth-astro'; // Import auth-astro for authentication
-import liveCode from 'astro-live-code';
 
 export default defineConfig({
     output: "server", // Ensure server output for auth handling
@@ -36,7 +35,6 @@ export default defineConfig({
                 },
             ],
         }),
-        liveCode(), // Add the live-code integration
         auth(), // Add the auth-astro integration
     ],
 });
