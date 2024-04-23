@@ -110,7 +110,7 @@ description: A reference page for TheRefinery Tech Stack information.
 
 All client account and management information is stored in Google Drive Spreadsheets for easy reference and access.
 
-## Overview
+## Summary
 
 ### Legacy Tech Stack
 - **Focus**: Traditional web development primarily with PHP and SilverStripe.
