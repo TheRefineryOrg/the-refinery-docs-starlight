@@ -65,15 +65,15 @@ description: A reference page for TheRefinery Tech Stack information.
 ### Hosting
 - [**Vercel**](https://vercel.com/)
 
-#### Workflow Management
+### Workflow Management
 - [**Trello**](https://trello.com/)
 
 - [**Jira**](https://www.atlassian.com/software/jira)
 
-#### Version Control
+### Version Control
 - [**GitHub**](https://github.com/)
 
-#### Recommended IDE
+### Recommended IDE
 - [**VSCode**](https://code.visualstudio.com/) 
 
 
@@ -115,7 +115,7 @@ All client account and management information is stored in Google Drive Spreadsh
 ### Legacy Tech Stack
 - **Focus**: Traditional web development primarily with PHP and SilverStripe.
 - **Database**: MySQL used as the primary database.
-- **Automation**: Utilized Grunt for task automation.
+- **Automation**: Utilised Grunt for task automation.
 - **Dependency Management**: Composer for managing dependencies.
 - **Infrastructure**: Managed through TMD, with WHM and cPanel for server and hosting control.
 
