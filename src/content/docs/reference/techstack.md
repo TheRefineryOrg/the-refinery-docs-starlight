@@ -50,6 +50,8 @@ description: A reference page for TheRefinery Tech Stack information.
 
 - **React**: A library for building user interfaces, allowing developers to create reusable UI components that manage their state.
 
+- **TypeScript** - A superset of JavaScript that adds static types to the language, enhancing code quality and understandability.
+
 - **TailwindCSS**: A utility-first CSS framework for rapidly building custom designs without leaving your HTML.
 
 - **DaisyUI**: A plugin for TailwindCSS that provides fully customizable, themeable UI components.
