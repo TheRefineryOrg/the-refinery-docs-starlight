@@ -19,9 +19,9 @@ The ANZAC Microsite is a web project hosted on Vercel, featuring continuous inte
 
 The ANZAC Microsite is built using the following technologies:
 
-- **Astro with Starlight**: Astro is utilized as the web framework, with the Starlight theme for styling and layout.
-- **Markdown**: Markdown is used for creating and formatting content within the microsite.
-- **TinaCMS**: TinaCMS is integrated into the microsite for content management, allowing for easy editing of Markdown content.
+- **Astro**: Astro is utilized as the web framework for building the microsite.
+- **Svelte**: Svelte is used as the front-end framework for creating interactive components and dynamic user interfaces.
+- **Hardcoded Content**: The content within the microsite is currently hardcoded.
 
 ## Continuous Integration (CI)
 
