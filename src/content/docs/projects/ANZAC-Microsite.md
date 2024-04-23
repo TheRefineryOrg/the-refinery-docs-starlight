@@ -6,69 +6,55 @@ title: ANZAC Microsite
 
 ## Overview
 
-The ANZAC Microsite is a web project hosted on Vercel, featuring continuous integration (CI) setup with GitHub. This document outlines the key components and technologies used in building and maintaining the microsite.
+The ANZAC Microsite is a specialized web project that leverages modern development practices and technologies, hosted on the Vercel platform and integrated with GitHub for continuous integration (CI). This documentation provides an overview of the project setup, technologies used, and guidelines on how to contribute to the microsite.
 
 ## Project Details
 
 - **Job Number**: J1873
-- **Name**: RSL Vic ANZAC Appeal ATL Campaign
-- **Hosted on Vercel**: The ANZAC Microsite is deployed and hosted on the Vercel platform.
-- **GitHub Repository**: The source code for the microsite is stored in the GitHub repository under the account [TheRefineryOrg](https://github.com/TheRefineryOrg).
+- **Campaign Name**: RSL Vic ANZAC Appeal ATL Campaign
+- **Hosting**: Deployed and hosted on Vercel.
+- **Source Repository**: Available on GitHub under the account [TheRefineryOrg](https://github.com/TheRefineryOrg).
 
 ## Technologies Used
 
-The ANZAC Microsite is built using the following technologies:
-
-- **Astro**: Astro is utilized as the web framework for building the microsite.
-- **Svelte**: Svelte is used as the front-end framework for creating interactive components and dynamic user interfaces.
-- **Hardcoded Content**: The content within the microsite is currently hardcoded.
+- **Astro**: Utilized as the web framework for its efficient rendering capabilities.
+- **Svelte**: Employed for creating interactive components and enhancing the user interface.
+- **Content Management**: Currently, the site content is hardcoded, pending future updates for dynamic management.
 
 ## Continuous Integration (CI)
 
-Continuous integration is set up with GitHub to automate the build and deployment process of the microsite. Any changes pushed to the GitHub repository trigger the CI pipeline, ensuring that updates are reflected on the live site hosted on Vercel. The CI pipeline is configured to build and deploy the microsite automatically to Vercel upon successful completion of the CI checks.
+Changes pushed to the GitHub repository automatically trigger a CI pipeline that builds and deploys the microsite to Vercel. This ensures that the live site reflects the latest updates after successful CI checks.
 
 ## Getting Started
 
-To contribute to the ANZAC Microsite or make changes, follow these steps:
+To contribute to the ANZAC Microsite, perform the following steps:
 
 1. Clone the GitHub repository:
-   
-``` bash
-git clone https://github.com/TheRefineryOrg/ANZAC-Microsite.git
-```
+   ```bash
+   git clone https://github.com/TheRefineryOrg/ANZAC-Microsite.git
+   ```
 
-## Getting Started
+2. Install dependencies:
+   ```bash
+   cd ANZAC-Microsite
+   npm install
+   ```
 
-To contribute to the ANZAC Microsite or make changes, follow these steps:
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
+4. Apply changes to the Markdown content or source code as necessary.
 
-```bash
-cd ANZAC-Microsite
-npm install
-```
-
-2. Start the development server:
-
-``` bash
-npm run dev
-
-```
-
-3. Make your changes or additions to the Markdown content or source code.
-
-4. Push your changes to the GitHub repository.
-
-5. GitHub CI will automatically trigger the build and deployment process on Vercel.
+5. Commit and push your changes to the GitHub repository. The CI pipeline will handle the subsequent build and deployment to Vercel.
 
 ## Additional Resources
 
-For more information or support, please refer to the following resources:
-
 - [Vercel Documentation](https://vercel.com/docs)
 - [Astro Documentation](https://docs.astro.build/)
-- [TinaCMS Documentation](https://tinacms.org/docs)
+- [Svelte Documentation](https://svelte.dev/docs)
 
 ## Contact
 
-If you have any questions or need assistance, feel free to reach out to the project maintainers at [joseph@therefinery.com.au](joseph:dev@therefinery.com.au).
+For inquiries or assistance, please contact the project maintainers at [joseph@therefinery.com.au](mailto:joseph@therefinery.com.au).
