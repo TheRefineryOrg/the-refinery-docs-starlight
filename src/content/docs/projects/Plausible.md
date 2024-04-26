@@ -20,6 +20,12 @@ title: Plausible Anylitics
 
 ## Installing
 
+### Linode setup
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/T-Kzxx0aHbk?si=ggfrwsbXvsvJJ6uE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Tracking
+
 To add the tracking to a site add a domain in the Plausible dashboard and add the embed script to the websites page.
 
 ```html
@@ -38,3 +44,6 @@ Here is an option to share your dashboard
 You can also privately share the data
 ![alt text](/Plausible/priv-share.png)
 
+## API
+Plausible offeres an API which data can be pulled from. The docs can be found [here](https://plausible.io/docs/stats-api).
+To get an API key you can create one in you [plausible settings](https://plausible.io/settings)
