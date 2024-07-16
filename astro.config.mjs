@@ -9,14 +9,22 @@ export default defineConfig({
   integrations: [starlight({
     title: 'TheRefinery Docs',
     social: {
-      github: 'https://github.com/withastro/starlight'
+      github: 'https://github.com/TheRefineryOrg/the-refinery-docs-starlight'
     },
-    sidebar: [{
-      label: 'Reference',
-      autogenerate: {
-        directory: 'reference'
-      }
-    }]
+    sidebar: [
+      {
+        label: 'Guides',
+        autogenerate: { directory: 'guides' },
+      },
+      {
+        label: 'Reference',
+        autogenerate: { directory: 'reference' },
+      },
+      {
+        label: 'Projects',
+        autogenerate: { directory: 'projects' },
+      },
+    ],
   }), auth()],
   output: 'server',
   adapter: vercel()

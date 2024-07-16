@@ -4,8 +4,6 @@ title: ANZAC Microsite
 
 # ANZAC Microsite Documentation
 
-## Overview
-
 The ANZAC Microsite is a specialized web project that leverages modern development practices and technologies, hosted on the Vercel platform and integrated with GitHub for continuous integration (CI). This documentation provides an overview of the project setup, technologies used, and guidelines on how to contribute to the microsite.
 
 ## Project Details

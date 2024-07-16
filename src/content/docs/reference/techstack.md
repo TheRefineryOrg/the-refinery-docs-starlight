@@ -1,6 +1,6 @@
 ---
-title: Tech Stack Reference
-description: A reference page for TheRefinery Tech Stack information.
+title: New Tech Stack
+description: A reference page for TheRefinery New Tech Stack information.
 ---
 
 ## Legacy Tech Stack
