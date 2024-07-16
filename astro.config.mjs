@@ -27,7 +27,17 @@ export default defineConfig({
     ],
   }), auth()],
   output: 'server',
-  adapter: vercel()
+  adapter: vercel(),
+  vite: {
+    optimizeDeps: {
+      include: ['astro'],
+    },
+    build: {
+      commonjsOptions: {
+        transformMixedEsModules: true,
+      },
+    },
+  },
 });
 
 // export default defineConfig({
