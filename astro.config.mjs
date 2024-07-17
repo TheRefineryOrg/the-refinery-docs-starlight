@@ -29,9 +29,6 @@ export default defineConfig({
   output: 'server',
   adapter: vercel(),
   vite: {
-    optimizeDeps: {
-      include: ['astro'],
-    },
     build: {
       commonjsOptions: {
         transformMixedEsModules: true,
